@@ -107,16 +107,5 @@ Tokopedia uses infinite scrolling instead of traditional pagination. Therefore, 
 
 ---
 
-## How to Run
 
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the ETL pipeline:
-
-```bash
-python -m app.main
 ```
