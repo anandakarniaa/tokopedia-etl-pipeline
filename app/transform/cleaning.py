@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def clean_dataframe(df):
 
     # Missing Value
@@ -30,7 +29,7 @@ def clean_dataframe(df):
         .str.strip()
     )
 
-    # Ubah tipe data
+    # mengubah tipe data
     df["Price"] = df["Price"].astype(int)
     df["Sold"] = df["Sold"].astype(int)
     df["Rating"] = df["Rating"].astype(float)
