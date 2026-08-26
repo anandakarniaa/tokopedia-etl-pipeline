@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Data
+data/raw/*
+data/processed/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Selenium / Chrome
+chromedriver*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db/
+airflow/.env
+
+.git/
+
+debug_tokopedia.html
+debug_tokopedia.png
